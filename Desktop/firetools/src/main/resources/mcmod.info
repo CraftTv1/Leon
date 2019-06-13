@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sword",
+  "name": "\u00A7cSword",
+  "description": "\u00A7d The mod with the Powerfull sword in the Minecraft World",
+  "version": "1.0",
+  "mcversion": "1.10.2",
+  "url": "https://www.youtube.com/channel/UCxyZN-6LUsLs2zrE9kvguOQ?view_as=subscriber",
+  "updateUrl": "",
+  "authorList": ["CraftTv"],
+  "credits": "CraftTv",
+  "logoFile": "Logo.png",
+  "screenshots": [],
+  "dependencies": []
+}
+]
