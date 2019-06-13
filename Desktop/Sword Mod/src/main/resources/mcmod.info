@@ -1,0 +1,16 @@
+[
+{
+  "modid": "sword",
+  "name": "Example \u00A7d Sword",
+  "description": "\u00A7d The best Swords in MINECRAFT",
+  "version": "${1.0}",
+  "mcversion": "${1.10.2}",
+  "url": "https://www.youtube.com/channel/UCxyZN-6LUsLs2zrE9kvguOQ/videos?view_as=subscriber",
+  "updateUrl": "",
+  "authorList": ["CraftTv"],
+  "credits": "CraftTv",
+  "logoFile": "",
+  "screenshots": [],
+  "dependencies": []
+}
+]
