@@ -23,12 +23,22 @@ public class FireTools {
 	@SidedProxy(modId = MODID, serverSide = "firetools.proxy.CommonProxy", clientSide = "firetools.proxy.ClientProxy")
 	public static CommonProxy proxy = new CommonProxy();
 	public FireItems items;
+	public SwordTab tab1;
+	public toolTab tab2;
+	public ArmorTab tab3;
+	public FireTabs tab;
+	
+	
 
 	
 
 
 	@EventHandler
 	public void Preinit(FMLPreInitializationEvent event) {
+		tab1 = new SwordTab();
+		tab2 = new toolTab();
+		tab3 = new ArmorTab();
+		tab = new FireTabs();
 		items = new FireItems();
 		items.init();
 		items.register();

@@ -12,7 +12,7 @@ public class FireItems {
 	public void init() {
 		
 		
-		fire = new Fire().setCreativeTab(CreativeTabs.MATERIALS);
+		fire = new Fire().setCreativeTab(FireTools.instance.tab);
 		NameUtils.setNames(fire, "fire");
 	}
 	
